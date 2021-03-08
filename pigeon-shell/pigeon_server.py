@@ -59,8 +59,6 @@ def pigeon_server(config_file: str):
     client_soc.close()
     soc.close()
 
-        
-
 
 if __name__ == '__main__':
     pigeon_server()

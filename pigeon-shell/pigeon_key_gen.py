@@ -3,6 +3,7 @@ import click
 from Crypto.PublicKey import RSA
 from pathlib import Path
 
+
 @click.command()
 @click.option('--dec_digits', default=2048, help='Length of RSA private key')
 @click.option('--save_dir', default='.', help='Directory to save both keys')
@@ -36,6 +37,7 @@ def gen_pair(dec_digits: int=2048, save_dir: str='.'):
     public_path = Path(save_dir).joinpath('public.pigeon.txt')
     with open(public_path, 'wb') as f:
         f.write(public)
+
 
 if __name__ == '__main__':
     gen_pair()
