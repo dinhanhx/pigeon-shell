@@ -16,7 +16,7 @@ _ _=(_(_(_(_(_(_(_  _ _ /  )
 
 ## Introduction
 
-Pigeon-shell is like [ssh](https://www.ssh.com/) but is not reactive and is one-to-one. In justification of this, one client connects to one server and one server only listens to one client. Moreover, you can run command like `cd` or `bash` etc.
+Pigeon-shell is like [ssh](https://www.ssh.com/) but is not reactive and is one-to-one. In justification of this, one client connects to one server and one server only listens to one client. Moreover, you **can not** run command like `cd` or `bash` etc.
 
 This project is for educational purpose that is to understand how ssh works, how to implement asymmetric encryption, how to implement remote shell over TCP/IP.
 
